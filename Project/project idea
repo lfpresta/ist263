@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<title>Lucas Prestamo Project Idea</title>
+</head>
+<body>
+<section>
+<h1>About My Idea </h1>
+
+<p>For my project idea, I will create a website detailing the exclusive Spiderman comic series created by Todd McFarlane. I own all 16 McFarlane Spiderman comics so I can provide the images and describe the content in my own words. I have been a fan of McFarlane’s style and want to convey his work with Spiderman in an informative and interactive way.</p>
+</section>
+
+<section>
+<h2>Page Contents</h2>
+<dl>
+    <dt>Page 1: McFarlane Spiderman Covers (linked)</dt>
+    <dt>Page 2: Before and After Spiderman #1</dt>
+    <dt>Page 3: Other McFarlane Works
+</dl>
+</section>
+
+<p>The covers will link to a page on that specific comic, with a short summary and details about McFarlane’s style.</p>
+</body>
+</html>
