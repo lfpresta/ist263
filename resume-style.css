@@ -1,0 +1,66 @@
+main {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+body {
+    background-color: azure;
+}
+
+h1 {
+    text-align: center;
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+h2 {
+    padding: 5px;
+    margin: 15px;
+    border: 2px dashed black;
+    background-color: lightgrey;
+}
+
+h3 {
+    padding: 5px;
+    margin: 15px;
+}
+
+p {
+    padding: 10px;
+    margin: 5px;
+}
+
+p2 {
+    padding-left: 5px;
+    text-decoration: underline;
+}
+
+p3 {
+    padding-left: 5px;
+    text-decoration: underline;
+}
+
+br {
+    margin: 3px;
+}
+
+p4 {
+    padding-left: 5px;
+    text-decoration: underline;
+}
+
+ul {
+    padding: 20px;
+    margin: 2px;
+}
+
+h3 {
+    padding: 10px;
+    margin: 15px;
+}
+
+footer {
+    border-top: 2px solid black;
+}
+
