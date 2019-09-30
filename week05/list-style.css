@@ -1,0 +1,34 @@
+ ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    padding: 10px;
+}
+        
+.odd {
+    width: 38%;
+    background: #f1f1f1;
+}
+        
+.even {
+    width: 38%;
+    background: #e1e1e1;
+} 
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 10px;
+}
+        
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+#ul {
+    width: 50%
+}
