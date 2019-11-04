@@ -24,6 +24,7 @@ header {
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-image: url(Images/webs.png);
+    /* Cannnot get background image of webs to appear but not sure what went wrong */
 }
 
 .container-fluid {
