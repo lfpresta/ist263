@@ -23,7 +23,7 @@ header {
 
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-image: Images/webs.png);
+    background-image: url(Images/webs.png);
 }
 
 .container-fluid {
