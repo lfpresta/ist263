@@ -1,5 +1,5 @@
 nav {
-    display: flexbox;
+    display: flex;
     text-align: center;
     background-color: lightgrey;
     margin: 5px;
@@ -7,7 +7,7 @@ nav {
 }
 
 header {
-    display: flexbox;
+    display: flex;
     text-align: center;
     font-size: 40px;
     text-shadow: 1px .5px black;
@@ -16,7 +16,7 @@ header {
 
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-image: url(Images/webs.png);
+    background-image: url(webs.png);
 }
 
 h1 {
@@ -26,11 +26,30 @@ h1 {
     font-display: flex;
 }
 
+#action {
+    margin: 5px;
+    padding: 5px;
+    font-size: 16px;
+    background-color: lightsteelblue;
+    border-radius: 20px;
+}
+
 h2 {
     border: 3px 2px solid;
     background-color: #2b4afd;
     width: 13%;
     display: flex;
+}
+
+.container-text {
+    margin: 5px;
+    padding: 5px;
+    background-color: lightsteelblue;
+    border-radius: 20px;
+}
+
+.container-image {
+    width: 50%;
 }
 
 .container-fluid {
