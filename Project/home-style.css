@@ -1,17 +1,18 @@
 nav {
-    display: flexbox;
+    display: flex;
     text-align: center;
     background-color: lightgrey;
+    font-size: 25px;
     margin: 5px;
     padding: 5px;
 }
 
 header {
-    display: flexbox;
+    display: flex;
     text-align: center;
     font-size: 40px;
     text-shadow: 1px .5px black;
-    background-color: #2b4afd;
+    background-color: #3351fa;
 }
 
 #invite {
@@ -24,11 +25,22 @@ header {
 
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-image: url(Images/webs.png);
+    background-image: url(webs.png);
 }
 
 .container-fluid {
     width: 100%;
+}
+
+.container-header {
+    width: 100%;
+}
+
+.container-text {
+    margin: 5px;
+    padding: 5px;
+    background-color: lightsteelblue;
+    border-radius: 20px;
 }
 
 h1 {
@@ -41,7 +53,7 @@ h1 {
 h2 {
     border: 3px 2px solid;
     background-color: #2b4afd;
-    width: 18%;
+    width: 30%;
     display: flex;
 }
 
@@ -50,19 +62,25 @@ p {
     font-display: flex;
 }
 
+.container-image {
+    width: 50%;
+}
+
 img {
-    position: relative;
+    align-content: center;
     max-width: 75%;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
     .container-fluid {width: 100%;
     }
-}
 
 @media only screen and (min-width: 737px) and (max-width: 1024px) {
     .container-fluid {width: 100%;
     }
+
+aside {
+    display: block;
 }
 
 #end {
