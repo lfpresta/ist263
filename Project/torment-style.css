@@ -1,5 +1,5 @@
 nav {
-    display: flexbox;
+    display: flex;
     text-align: center;
     background-color: lightgrey;
     margin: 5px;
@@ -7,7 +7,7 @@ nav {
 }
 
 header {
-    display: flexbox;
+    display: flex;
     text-align: center;
     font-size: 40px;
     text-shadow: 1px .5px black;
@@ -22,7 +22,18 @@ header {
 
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-image: url(Images/webs.png);
+    background-image: url(webs.png);
+}
+
+.container-text {
+    margin: 5px;
+    padding: 5px;
+    background-color: lightsteelblue;
+    border-radius: 20px;
+}
+
+.container-image {
+    width: 50%;
 }
 
 .container-fluid {
@@ -48,9 +59,20 @@ p {
     font-display: flex;
 }
 
+.container-image {
+    width: 50%;
+}
+
 img {
     position: relative;
-    max-width: 75%;
+    max-width: 100%;
+}
+
+#cite {
+    margin: 5px;
+    padding: 5px;
+    background-color: lightsteelblue;
+    border-radius: 20px;
 }
 
 #end {
